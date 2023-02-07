@@ -1,0 +1,57 @@
+.bordures {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+  
+  .bordures h2 {
+    margin-top: 30px;
+  }
+  
+  .bordures ul {
+    margin-top: 30px;
+  }
+  
+  .bordures + div {
+    text-align: center;
+  }
+  .a-propos-main {
+    margin: auto;
+  }
+  th,
+td{
+  border: 1px solid #a5b4fc;
+  padding: 15px;
+}
+table{
+  border-collapse: collapse;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+}
+caption{
+  margin-bottom: 80px;
+}
+td{
+  padding: 80px;
+}
+
+@media screen and (max-width: 996px) {
+  .table-tarifs{
+    display: none;
+  }
+  .bordures{
+    border: none;
+  }
+  .centrage{
+    text-align: center;
+  }
+ 
+  .logo_bottom{
+    margin-bottom: 20px;
+  }
+
+}

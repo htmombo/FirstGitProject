@@ -1,0 +1,115 @@
+.accueil-photos {
+  background-color: white;
+  padding: 80px;
+}
+
+.accueil-photos h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.accueil-photos div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.accueil-introduction {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.accueil-introduction h1 {
+  margin-bottom: 15px;
+}
+
+.accueil-introduction p {
+  margin-bottom: 30px;
+}
+
+.accueil-introduction div {
+  padding-right: 80px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  color: white;
+}
+.nom-email{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.form-column{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+input,
+textarea{
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+}
+label{
+  margin-bottom: 10px;
+}
+textarea{
+  margin-bottom: 20px;
+}
+input[type="submit"]{
+  width: 150px;
+  margin: auto;
+  background: linear-gradient(#8E86B5, #ACAEED);
+  color: white;
+  font-family: 'Montserat', sans-serif;
+  font-size: medium;
+  border-radius: 50px;
+}
+.centrer{
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: #A5B4FC
+}
+@media screen and (max-width : 996px) {
+  .accueil-introduction{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .accueil-introduction div{
+    order: 2;
+    text-align: center;
+    padding-right: 0;
+
+  }
+  .accueil-introduction img{
+    margin-bottom: 20px;
+    order: 1;
+    
+  }
+  
+  .accueil-photos{
+    padding: 20px;
+  }
+  .accueil-photos div{
+    flex-direction: column;
+  }
+  .section-contact{
+    padding: 50px 20px;
+  }
+  .nom-email{
+    flex-direction: column;
+    gap: 0;
+  }
+}
